@@ -23,5 +23,162 @@
             "second": "/assets/Picture2tr.png",
             "third": "/assets/Picture5tr.png"
         }
+    },
+    "teeth": {
+        "first": "Önce & Sonra",
+        "second": "Yorumlar",
+        "third": "Deneyim",
+        "fourth": "Klinik",
+        "wp": "/assets/wptr.png",
+        "wpl": "https://api.whatsapp.com/send?phone=905398289219",
+        "reviews": [
+            { "src": "/assets/rt1.jpg", "alt": "rt1" },
+            { "src": "/assets/rt2.jpg", "alt": "rt2" },
+            { "src": "/assets/rt3.jpg", "alt": "rt3" },
+            { "src": "/assets/rt4.jpg", "alt": "rt4" },
+            { "src": "/assets/rt5.jpg", "alt": "rt5" },
+            { "src": "/assets/rt6.jpg", "alt": "rt6" },
+            { "src": "/assets/rt7.jpg", "alt": "rt7" }
+        ],
+        "videos": [
+            { "src": "https://www.youtube.com/embed/R6aHQQIotMA" },
+            { "src": "https://www.youtube.com/embed/DX3IeD4ML-M" },
+            { "src": "https://www.youtube.com/embed/3LDNRMAqNcE" },
+            { "src": "https://www.youtube.com/embed/RN1tu90FKis" },
+            { "src": "https://youtube.com/embed/EdPgH7Tb9jQ?feature=share" }
+        ]
+    },
+    "value": {
+        "title": "Katma Değerli Hizmetleri",
+        "first": "Öncelikli Randevu",
+        "second": "Ulaşım",
+        "third": "Konaklama",
+        "fourth": "Telekonsültasyon",
+        "fifth": "7/24 Hasta Desteği",
+        "sixth": "Dijital Gülüş Tasarımı",
+        "seventh": "Seyahat Sigortası",
+        "eighth": "Çeviri Desteği",
+        "ninth": "Şehir Turu",
+        "tenth": "Tedavi Sonrası İlaç Desteği",
+        "eleventh": "Tedavi İptal Durumunda Tam Para İadesi",
+        "twelfth": "Tedavi sonrası Doktor Takibi"
+    },
+    "specialist": {
+        "title": "Hizmetlerimiz",
+        "first": "ESTETİK DİŞ HEKİMLİĞİ",
+        "second": "KANAL TEDAVİSİ (ENDODONTİ)",
+        "third": "DENTAL İMPLANT",
+        "fourth": "ORTODONTİ",
+        "fifth": "DİŞ ETİ HASTALIKLARI ((PERİODONTOLOJİ)",
+        "sixth": "DİŞ PROTEZLERİ",
+        "seventh": "AĞIZ, DİŞ VE ÇENE CERRAHİSİ",
+        "eighth": "ÇOCUK AĞIZ VE DİŞ SAĞLIĞI (PEDODONTİ)"
+    },
+    "howitworks": {
+        "title": "İşler Nasıl Yürüyor?",
+        "first": "Bir istek gönderin",
+        "second": "Qualident medikal danışman sizinle iletişime geçecektir",
+        "third": "24 saat içinde tedavi planı alın",
+        "fourth": "Seyahatinizi düzenleyelim",
+        "fifth": "Tedavi olup geri dönmek",
+        "sixth": "Tedaviden sonra sizinle iletişimde kalmak"
+    },
+    "reviews": {
+        "items": [
+            {
+                "name": "Elif S...",
+                "treatment": "Q Hollywood Smile",
+                "way": "Zirkonyum Kuron",
+                "review": "Süreç beklentimin çok daha kolay, hızlı ve iyi geçti",
+                "image": "/assets/maingirl.png",
+                "video": "https://www.youtube.com/embed/jp5Aa39msxs",
+                "flag": "/assets/uk.png",
+                "country": "BİRLEŞİK KRALLIK",
+                "hastag": "#Mutluluk"
+            },
+            {
+                "name": "Pernaz S.",
+                "treatment": "Q Hollywood Smile",
+                "way": "E-Max Lamina Veneer",
+                "review": "Lamina Veneer yaptırdıktan sonra modellik kariyerime çok katkı sağladı ve etkiledi.",
+                "image": "/assets/irangirl.png",
+                "video": "https://www.youtube.com/embed/ItD6nMZRbCU",
+                "flag": "/assets/iran.png",
+                "country": "İRAN",
+                "hastag": "#Şöhret"
+            },
+            {
+                "name": "Haifa M.",
+                "treatment": "Q Hollywood Smile",
+                "way": "E-Max Zirkonyum Kuron",
+                "review": "Tüm işlemlerden sonra iyi olduğumdan emin olmak için tüm süreç boyunca benimle iletişim halinde oldular.",
+                "image": "/assets/girlwithsmile.png",
+                "video": "https://www.youtube.com/embed/3_wfxgNsuJ8?si=uzlu-tpoB5V0ys17",
+                "flag": "/assets/usa.png",
+                "country": "ABD",
+                "hastag": "#Memnuniyet"
+            },
+            {
+                "name": "Erkan C.",
+                "treatment": "All-On-4/6 Dental İmplant",
+                "way": "",
+                "review": "Tedaviye başlamadan önce gülmeyi unutmuştum, şimdi anlıyorum ki artık gülebiliyormuşum, ne mutlu bana",
+                "image": "/assets/turkey.png",
+                "video": "https://www.youtube.com/embed/4yiGZyX21h4?si=Cn3rQAnxT_2Crm34",
+                "flag": "/assets/turkeyflag.png",
+                "country": "TÜRKİYE",
+                "hastag": "#Özgüven"
+            },
+            {
+                "name": "Abdulaziz T.",
+                "treatment": "All-On-4/6 Dental Implant",
+                "way": "",
+                "review": "Sıcak karşılama ve bana ayrılan tüm destek ve imkanlar için özel teşekkür ederim.",
+                "image": "/assets/oldman.png",
+                "video": "https://youtube.com/embed/EdPgH7Tb9jQ?si=ILfadM26nXrJB62F",
+                "flag": "/assets/algeria.png",
+                "country": "CEZAYİR",
+                "hastag": "#Konfor"
+            },
+            {
+                "name": "Latoya W.",
+                "treatment": "ALL-ON-4/6 Dental Implant",
+                "way": "",
+                "review": "Kaliteli bir gülüşe sahip oldum, hayatımı değiştirdiniz.",
+                "image": "/assets/blackwoman.png",
+                "video": "https://youtube.com/embed/2GrfqEOMRVc?si=F9AhXm7AZWuXqz9I",
+                "flag": "/assets/usa.png",
+                "country": "ABD",
+                "hastag": "#SevinçGözyaşları"
+            }
+        ]
+    },
+    "footer": {
+        "title": "ABD'DEKİ ORTAKLARIMIZ",
+        "first": "ÇÖZÜM ORTAKLARIMIZ",
+        "second": "En İyi Hasta Deneyimi",
+        "third": "Birden Fazla Dil Konuşuyoruz",
+        "line1": "Türkiye ve Avrupa'da onlarca",
+        "line2": "yıllık klinik deneyimine dayanarak",
+        "line3": "en iyi hasta hizmetleri sunmaktan",
+        "line4": "gurur duymaktayız. Inanıyoruz ki sağlıklı",
+        "line5": "ağız her zaman sağlıklı vücuda yol açmaktadır.",
+        "l1": "Hastalarımıza en kaliteli hizmet ve tedavi",
+        "l2": "sunabilmek ve tüm diş ihtiyaçlarının",
+        "l3": "karşılandığından emin olmak için birden",
+        "l4": "fazla dil konuşan doktorlarımız ve medikal",
+        "l5": "ekibimiz tüm tedavi süresince yanınızda olacaktır.",
+        "formtitle": "Ücretsiz Fiyat Teklifi Alın",
+        "formname": "Ad Soyad",
+        "fillname": "Lütfen adınızı giriniz",
+        "formemail": "Email",
+        "fillemail": "Lütfen email adresinizi giriniz",
+        "formphone": "Telefon Numarası",
+        "submit": "Şimdi Gönder",
+        "socialLinks": {
+            "facebook": "https://www.facebook.com/Qualident.tr?mibextid=LQQJ4d",
+            "instagram": "https://www.instagram.com/qualident.clinic/?igshid=MzRlODBiNWFlZA",
+            "whatsapp": "https://api.whatsapp.com/send?phone=905398289219"
+        }
     }
 }

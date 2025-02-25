@@ -69,10 +69,6 @@ export default function FirstPage() {
       console.error('Error:', error);
     }
   };
-
-  console.log(content.images.first);
-  console.log(content.images.second);
-
   return (
     <div className="flex flex-col w-full items-center relative h-screen">
       <img loading='lazy' className="absolute z-0 inset-0 w-full h-full object-cover opacity-40" src={content.images.background} alt="Background" />

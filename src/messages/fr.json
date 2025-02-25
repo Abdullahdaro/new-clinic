@@ -23,5 +23,163 @@
             "second": "/assets/Picture2fr.png",
             "third": "/assets/Picture5fr.png"
         }
+    },
+    "teeth": {
+        "first": "Avant & Après",
+        "second": "Reveus",
+        "third": "Expériences",
+        "fourth": "Clinique",
+        "wp": "/assets/wpfr.png",
+        "wpl": "https://api.whatsapp.com/send?phone=905308309219",
+        "reviews": [
+            { "src": "/assets/r1.jpg", "alt": "r1" },
+            { "src": "/assets/r2.jpg", "alt": "r2" },
+            { "src": "/assets/r3.jpg", "alt": "r3" },
+            { "src": "/assets/r4.jpg", "alt": "r4" },
+            { "src": "/assets/r5.jpg", "alt": "r5" },
+            { "src": "/assets/r6.jpg", "alt": "r6" },
+            { "src": "/assets/r7.jpg", "alt": "r7" }
+        ],
+        "videos": [
+            { "src": "https://www.youtube.com/embed/BSym9MghlA8" },
+            { "src": "https://www.youtube.com/embed/PvgHhgQ_JMg" },
+            { "src": "https://www.youtube.com/embed/kvSS2R1zM8k" },
+            { "src": "https://www.youtube.com/embed/ETW4B1q1MyY" },
+            { "src": "https://www.youtube.com/embed/EdPgH7Tb9jQ" }
+        ]
+    },
+    "value": {
+        "title": "Avantages à Valeur Ajoutée",
+        "first": "Rendez-vous prioritaires",
+        "second": "Transport",
+        "third": "Hébergement",
+        "fourth": "Téléconsultation",
+        "fifth": "Assistance aux patients 24/7",
+        "sixth": "Dessin numérique du sourire",
+        "seventh": "Assurance voyage",
+        "eighth": "Aide à la traduction",
+        "ninth": "Visite de la ville",
+        "tenth": "Médicaments à domicile",
+        "eleventh": "Annulation à tout moment avec remboursement intégral",
+        "twelfth": "Suivi après le traitement"
+    },
+    "specialist": {
+        "title": "Nos Spécialités",
+        "first": "DENTISTERIE ESTHÉTIQUE",
+        "second": "TRAITEMENT DES CANAUX RADICULAIRES (ENDODONTIE)",
+        "third": "IMPLANTS DENTAIRES",
+        "fourth": "ORTHODONTIE",
+        "fifth": "TRAITEMENTS DES GENCIVES (PARODONTIE)",
+        "sixth": "PROTHÈSES DENTAIRES",
+        "seventh": "CHIRURGIE MAXILLO-FACIALE ET DENTAIRE",
+        "eighth": "DENTISTERIE PÉDIATRIQUE (PÉDODONTIE)"
+    },
+    "howitworks": {
+        "title": "Comment Cela Fonctionne-t-il ?",
+        "first": "Soumettre une demande",
+        "second": "Un consultant médical Qualident prendra contact avec vous",
+        "third": "Recevez un plan de traitement dans les 24 heures",
+        "fourth": "Organiser votre voyage médical",
+        "fifth": "Se faire soigner et revenir en avion",
+        "sixth": "Rester en contact avec vous après le traitement"
+    },
+    "reviews": {
+        "items": [
+            {
+                "name": "Elif S...",
+                "treatment": "Q Sourire Hollywoodien",
+                "way": "Couronnes en Zirconium",
+                "review": "Le processus a été plus facile, plus rapide et meilleur que je ne lespérais.",
+                "image": "/assets/maingirl.png",
+                "video": "https://www.youtube.com/embed/jp5Aa39msxs",
+                "flag": "/assets/uk.png",
+                "country": "kingtom unis",
+                "hastag": "#Bonheur"
+            },
+            {
+                "name": "Pernaz S.",
+                "treatment": "Q Sourire Hollywoodien",
+                "way": "Placages en Stratifié E-Max",
+                "review": "Après avoir fait poser des facettes en stratifié, jai beaucoup appris à modeler, ce qui est ma profession.",
+                "image": "/assets/irangirl.png",
+                "video": "https://www.youtube.com/embed/6S_pvA7uYDs?si=O1Yy_Oshyvj4x_Wd",
+                "flag": "/assets/iran.png",
+                "country": "IRAN",
+                "hastag": "#Célébrité"
+            },
+            {
+                "name": "Haifa M.",
+                "treatment": "Q Hollywood Smile",
+                "way": "Couronnes en Zircone E-Max",
+                "review": "Ils sont restés en contact avec moi pendant toute la durée de lopération pour sassurer que jallais bien après toutes les procédures.",
+                "image": "/assets/girlwithsmile.png",
+                "video": "https://www.youtube.com/embed/kk3xdM4EMZg",
+                "flag": "/assets/usa.png",
+                "country": "Aux Etats-Unis",
+                "hastag": "#Satisfaction"
+            },
+            {
+                "name": "Erkan C.",
+                "treatment": "All-On-4/6 Dental Implant",
+                "way": "",
+                "review": "Jétais mécontent de mon apparence, javais oublié de rire. Maintenant je me rends compte que je peux rire, jai de la chance.",
+                "image": "/assets/turkey.png",
+                "video": "https://www.youtube.com/embed/wfoHP7_KB-g?si=_X7Pg1hlfb6p7TZh",
+                "flag": "/assets/turkeyflag.png",
+                "country": "La Turqie",
+                "hastag": "#Confiance en Soi"
+            },
+            {
+                "name": "Abdulaziz T.",
+                "treatment": "All-On-4/6 Dental Implant",
+                "way": "",
+                "review": "Remerciements particuliers pour laccueil chaleureux et le soutien total qui mont été réservés.",
+                "image": "/assets/oldman.png",
+                "video": "https://youtube.com/embed/EdPgH7Tb9jQ?si=ILfadM26nXrJB62F",
+                "flag": "/assets/algeria.png",
+                "country": "ALGÉRIE",
+                "hastag": "#Confort"
+            },
+            {
+                "name": "Latoya W.",
+                "treatment": "ALL-ON-4/6 Dental Implant",
+                "way": "",
+                "review": "J'ai eu un beau sourire, vous avez changé ma vie",
+                "image": "/assets/blackwoman.png",
+                "video": "https://youtube.com/embed/2GrfqEOMRVc?si=F9AhXm7AZWuXqz9I",
+                "flag": "/assets/usa.png",
+                "country": "Aux Etats-Unis",
+                "hastag": "#Larmes de Bonheur"
+            }
+        ]
+    },
+    "footer": {
+        "title": "NOS PARTENAIRES AUX ÉTATS-UNIS",
+        "first": "NOS PARTENAIRES DE SOLUTION",
+        "second": "Meilleure expérience patient",
+        "third": "Nous parlons plusieurs langues",
+        "line1": "Nous sommes fiers d offrir des services",
+        "line2": "à la clientèle de la meilleure qualité en",
+        "line3": "Turquie et en Europe, qui s appuient",
+        "line4": "sur des décennies d expérience",
+        "line5": "clinique. Notre conviction est qu une",
+        "line6": "bouche saine mène toujours à un corps sain.",
+        "l1": "Nos médecins et notre équipe médicale parlent plusieurs",
+        "l2": "langues et peuvent ainsi communiquer",
+        "l3": "directement avec nos avec nos patients pour",
+        "l4": "s'assurer que tous leurs besoins",
+        "l5": "dentaires sont satisfaits.",
+        "formtitle": "Obtenez un devis gratuit",
+        "formname": "Nom complet",
+        "fillname": "Veuillez entrer votre nom",
+        "formemail": "Email",
+        "fillemail": "Veuillez entrer votre email",
+        "formphone": "Numéro de téléphone",
+        "submit": "Envoyer maintenant",
+        "socialLinks": {
+            "facebook": "https://www.facebook.com/Qualidentclinic?mibextid=LQQJ4d",
+            "instagram": "https://instagram.com/qualidentinternational?igshid=MzRlODBiNWFlZA",
+            "whatsapp": "https://api.whatsapp.com/send?phone=905308309219"
+        }
     }
 }

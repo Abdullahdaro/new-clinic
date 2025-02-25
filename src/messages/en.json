@@ -22,5 +22,163 @@
             "first": "/assets/Picture1.png",
             "second": "/assets/Picture2.png"
         }
+    },
+    "teeth": {
+        "first": "Before & After",
+        "second": "Reviews",
+        "third": "Expriences",
+        "fourth": "Clinic",
+        "wp": "/assets/wp.png",
+        "wpl": "https://api.whatsapp.com/send?phone=905308309219",
+        "reviews": [
+            { "src": "/assets/r1.jpg", "alt": "r1" },
+            { "src": "/assets/r2.jpg", "alt": "r2" },
+            { "src": "/assets/r3.jpg", "alt": "r3" },
+            { "src": "/assets/r4.jpg", "alt": "r4" },
+            { "src": "/assets/r5.jpg", "alt": "r5" },
+            { "src": "/assets/r6.jpg", "alt": "r6" },
+            { "src": "/assets/r7.jpg", "alt": "r7" }
+        ],
+        "videos": [
+            { "src": "https://www.youtube.com/embed/BSym9MghlA8" },
+            { "src": "https://www.youtube.com/embed/PvgHhgQ_JMg" },
+            { "src": "https://www.youtube.com/embed/kvSS2R1zM8k" },
+            { "src": "https://www.youtube.com/embed/ETW4B1q1MyY" },
+            { "src": "https://www.youtube.com/embed/EdPgH7Tb9jQ" }
+        ]
+    },
+    "value": {
+        "title": "Value Added Benefits",
+        "first": "Priority Appointments",
+        "second": "Transportation",
+        "third": "Accommodation",
+        "fourth": "Teleconsultation",
+        "fifth": "24/7 Patient Support",
+        "sixth": "Digital smile design",
+        "seventh": "Travel Insurance",
+        "eighth": "Translation Support",
+        "ninth": "City Tour",
+        "tenth": "Home Medications",
+        "eleventh": "Cancel Anytime with full Refund",
+        "twelfth": "Follow-up after treatment"
+    },
+    "specialist": {
+        "title": "Our Specialties",
+        "first": "COSMETIC DENISTRY",
+        "second": "ROOT CANAL TREATMENT (ENDODONTICS)",
+        "third": "DENTAL IMPLANTS",
+        "fourth": "ORTHODONTICS",
+        "fifth": "GUM TREATMENTS (PERIODONTICS)",
+        "sixth": "DENTAL PROSTHETICS",
+        "seventh": "MAXILLOFACIAL AND DENTAL SURGERY",
+        "eighth": "CHILDREN DENTISTRY (PEDODONTICS)"
+    },
+    "howitworks": {
+        "title": "How It Works",
+        "first": "Submit a request",
+        "second": "Qualident medical consultant will be in contact with you",
+        "third": "Recieve a treatment plan within 24 hours",
+        "fourth": "Arranging your medical trip",
+        "fifth": "Get treated and fly back",
+        "sixth": "Staying in touch with you after treatment"
+    },
+    "reviews": {
+        "items": [
+            {
+                "name": "Elif S...",
+                "treatment": "Q Hollywood Smile",
+                "way": "Zirconia Crowns",
+                "review": "The process was easier, quicker and better than I expected",
+                "image": "/assets/maingirl.png",
+                "video": "https://www.youtube.com/embed/jp5Aa39msxs",
+                "flag": "/assets/uk.png",
+                "country": "United Kingdom",
+                "hastag": "#Happiness"
+            },
+            {
+                "name": "Pernaz S.",
+                "treatment": "Q Hollywood Smile",
+                "way": "E-Max Laminate Veneers",
+                "review": "After I had Laminate Veneers done, it contributed my modeling a lot, which is my profession",
+                "image": "/assets/irangirl.png",
+                "video": "https://www.youtube.com/embed/6S_pvA7uYDs?si=O1Yy_Oshyvj4x_Wd",
+                "flag": "/assets/iran.png",
+                "country": "IRAN",
+                "hastag": "#Celebrity"
+            },
+            {
+                "name": "Haifa M.",
+                "treatment": "Q Hollywood Smile",
+                "way": "E-Max Zirconia Crowns",
+                "review": "They kept in touch with me throughout the whole time to be sure I was fine after all the procedures",
+                "image": "/assets/girlwithsmile.png",
+                "video": "https://www.youtube.com/embed/kk3xdM4EMZg",
+                "flag": "/assets/usa.png",
+                "country": "USA",
+                "hastag": "#Satisfaction"
+            },
+            {
+                "name": "Erkan C.",
+                "treatment": "All-On-4/6 Dental Implant",
+                "way": "",
+                "review": "I was unhappy with my appearance, I had forgotten to laugh. Now I realize that I can laugh, lucky me.",
+                "image": "/assets/turkey.png",
+                "video": "https://www.youtube.com/embed/wfoHP7_KB-g?si=_X7Pg1hlfb6p7TZh",
+                "flag": "/assets/turkeyflag.png",
+                "country": "TURKEY",
+                "hastag": "#Self-Confidence"
+            },
+            {
+                "name": "Abdulaziz T.",
+                "treatment": "All-On-4/6 Dental Implant",
+                "way": "",
+                "review": "Special Thanks for warm welcome and the full support that was reserved for me.",
+                "image": "/assets/oldman.png",
+                "video": "https://youtube.com/embed/EdPgH7Tb9jQ?si=ILfadM26nXrJB62F",
+                "flag": "/assets/algeria.png",
+                "country": "ALGERiA",
+                "hastag": "#Comfort"
+            },
+            {
+                "name": "Latoya W.",
+                "treatment": "ALL-ON-4/6 Dental Implant",
+                "way": "",
+                "review": "I received a quality smile, you have changed my life",
+                "image": "/assets/blackwoman.png",
+                "video": "https://youtube.com/embed/2GrfqEOMRVc?si=F9AhXm7AZWuXqz9I",
+                "flag": "/assets/usa.png",
+                "country": "USA",
+                "hastag": "#HappyTears"
+            }
+        ]
+    },
+    "footer": {
+        "title": "OUR PARTNERS IN USA",
+        "first": "OUR SOLUTION PARTNERS",
+        "second": "Best Patient Experience",
+        "third": "We Speak Multiple Languages",
+        "line1": "We pride ourselves on the best",
+        "line2": "quality customer services in",
+        "line3": "Turkey and Europe backed by",
+        "line4": "decades of clinical experience.",
+        "line5": "Our belief is that healthy mouths",
+        "line6": "always lead to healthy bodies.",
+        "l1": "Our doctors and medical team speak",
+        "l2": "multiple languages where they can",
+        "l3": "communicate directly with our",
+        "l4": "patients to make sure all their",
+        "l5": "dental needs are met.",
+        "formtitle": "Get a Free Quote",
+        "formname": "Full Name",
+        "fillname": "Please enter your name",
+        "formemail": "Email",
+        "fillemail": "Please enter your email",
+        "formphone": "Phone Number",
+        "submit": "Submit Now",
+        "socialLinks": {
+            "facebook": "https://www.facebook.com/Qualidentclinic",
+            "instagram": "https://instagram.com/qualidentinternational?igshid=MzRlODBiNWFlZA",
+            "whatsapp": "https://api.whatsapp.com/send?phone=905308309219"
+        }
     }
 }

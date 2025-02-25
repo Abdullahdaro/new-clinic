@@ -1,0 +1,26 @@
+{
+    "header": {
+        "home": "HOME",
+        "about": "ABOUT",
+        "treatments": "TREATMENTS",
+        "doctors": "DOCTORS",
+        "blog": "BLOG",
+        "contact": "CONTACT",
+        "language": "ENGLISH"
+    },
+    "firstpage": {
+        "formtitle": "Get a Free Quote",
+        "formname": "Full Name",
+        "fillname": "Please enter your name",
+        "formemail": "Email",
+        "fillmail": "Please enter your email",
+        "formphone": "Phone Number",
+        "submit": "Submit Now",
+        "images": {
+            "background": "/assets/background.png",
+            "main": "/assets/main1.png",
+            "first": "/assets/Picture1.png",
+            "second": "/assets/Picture2.png"
+        }
+    }
+}

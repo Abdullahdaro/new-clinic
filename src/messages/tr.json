@@ -1,0 +1,27 @@
+{
+    "header": {
+        "home": "ANA SAYFA",
+        "about": "HAKKIMIZDA",
+        "treatments": "TEDAVİLER",
+        "doctors": "DOKTORLARIMIZ",
+        "blog": "BLOG",
+        "contact": "İLETİŞİM",
+        "language": "TÜRKÇE"
+    },
+    "firstpage": {
+        "formtitle": "Ücretsiz Fiyat Teklifi Alın",
+        "formname": "Ad Soyad",
+        "fillname": "Ad ve Soyadınızı Girin",
+        "formemail": "Email",
+        "fillmail": "Lütfen email adresinizi giriniz",
+        "formphone": "Telefon Numarası",
+        "submit": "Gönder",
+        "images": {
+            "background": "/assets/background.png",
+            "main": "/assets/main1.png",
+            "first": "/assets/Picture1tr.png",
+            "second": "/assets/Picture2tr.png",
+            "third": "/assets/Picture5tr.png"
+        }
+    }
+}

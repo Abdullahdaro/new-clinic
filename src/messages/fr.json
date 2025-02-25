@@ -1,0 +1,27 @@
+{
+    "header": {
+        "home": "ACCUEIL",
+        "about": "À PROPOS",
+        "treatments": "TRAITEMENTS",
+        "doctors": "MÉDECINS",
+        "blog": "BLOG",
+        "contact": "CONTACT",
+        "language": "FRANÇAIS"
+    },
+    "firstpage": {
+        "formtitle": "Obtenir un Devis Gratuit",
+        "formname": "Nom complet",
+        "fillname": "Veuillez entrer votre nom",
+        "formemail": "Email",
+        "fillmail": "Veuillez entrer votre email",
+        "formphone": "Numéro de téléphone",
+        "submit": "Soumettre Maintenant",
+        "images": {
+            "background": "/assets/background.png",
+            "main": "/assets/main1.png",
+            "first": "/assets/Picture1fr.png",
+            "second": "/assets/Picture2fr.png",
+            "third": "/assets/Picture5fr.png"
+        }
+    }
+}

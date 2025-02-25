@@ -181,5 +181,61 @@
             "instagram": "https://instagram.com/qualidentinternational?igshid=MzRlODBiNWFlZA",
             "whatsapp": "https://api.whatsapp.com/send?phone=905308309219"
         }
+    },
+    "doctors": {
+        "items": [
+            {
+                "title": "Nos médecins spécialistes",
+                "name": "Dr. Ghazwan Ghazi",
+                "treatment": "",
+                "way": "Parodontiste et spécialiste des implants dentaires",
+                "education": "École dentaire de luniversité de Boston - Licence 1992 École dentaire du New Jersey - Maîtrise 1997 École de médecine dentaire de Harvard : Chargé de cours sur la médecine bucco-dentaire, les infections et l'immunité",
+                "image": "/assets/oldmandoctor.png",
+                "language": "Anglais, Arabe, Français",
+                "speciality": "Implants dentaires, All-On-4/6, greffe osseuse, élévation des sinus, Traitement des maladies des gencives, traitement esthétique des gencives, traitement de la gingivite, récession gingivale, saignement des gencives.",
+                "years": "15 ans",
+                "wp": "/assets/wpfr.png",
+                "first": "Spécialité:",
+                "second": "Formation:",
+                "third": "Langues:",
+                "forth": "Expérience:",
+                "wpLink": "https://api.whatsapp.com/send?phone=905308309219",
+                "contact": "Contact Us"
+            },
+            {
+                "title": "Nos médecins spécialistes",
+                "name": "Dr. Ebru Bütün",
+                "way": "Parodontiste et spécialiste des implants dentaires",
+                "education": "Faculté de médecine dentaire de l'université d'Ankara - Dentisterie 2007 _2012 Faculté de médecine dentaire de l'université Bolu Abant İzzet Baysal - Parodontologie 2017_ 2021",
+                "image": "/assets/girldoctor.png",
+                "language": "Anglais, Turc",
+                "speciality": "Implant dentaire, All-On-4/6, greffe osseuse, élévation des sinus,Traitement des maladies des gencives, traitement de la gingivite, traitement esthétique des gencives, récession gingivale, saignement des gencives.",
+                "years": "10 ans",
+                "wp": "/assets/wpfr.png",
+                "first": "Spécialité:",
+                "second": "Formation:",
+                "third": "Langues:",
+                "forth": "Expérience:",
+                "wpLink": "https://api.whatsapp.com/send?phone=905308309219",
+                "contact": "Contact Us"
+            },
+            {
+                "title": "Nos médecins spécialistes",
+                "name": "Dr. Melek Aksoy",
+                "way": "Spécialiste de lesthétique",
+                "education": "Faculté de médecine dentaire de l'université de Biruni 2015 _2020",
+                "image": "/assets/younggirldoctor.png",
+                "language": "Anglais, Arabe, Turc",
+                "speciality": "Conception de Sourire (Couronnes en Zircone, Facettes en E-Max), Collage Composite, Inlay & Onlay, Blanchiment des Dents / Blanchiment",
+                "years": "5 ans",
+                "wp": "/assets/wpfr.png",
+                "first": "Spécialité:",
+                "second": "Formation:",
+                "third": "Langues:",
+                "forth": "Expérience:",
+                "wpLink": "https://api.whatsapp.com/send?phone=905308309219",
+                "contact": "Contact Us"
+            }
+        ]
     }
 }

@@ -152,6 +152,62 @@
             }
         ]
     },
+    "doctors": {
+        "items": [
+            {
+                "title": "Our Specialist Doctors",
+                "name": "Dr. Ghazwan Ghazi",
+                "treatment": "",
+                "way": "Periodontist & Dental Implant Specialist",
+                "education": "Boston University School of Dentistry- Bachelor Degree1992 New Jersey Dental School- Masters Degree 1997 Harvard School of Dental Medicine: Lecturer on Oral Medicine, Infection and Immunity",   
+                "image": "/assets/oldmandoctor.png",
+                "language": "English, Arabic, French",
+                "speciality": "Dental Implant, All-On-4/6, Bone Grafting, Sinus Lifting, Gum Disease Treatment, Gingivitis Treatment, Aesthetic Gum Treatment, Gingival Recession, Bleeding Gum",
+                "years": "15 years",
+                "wp": "/assets/wp.png",
+                "first": "Specialty:",
+                "second": "Education:",
+                "third": "Languages:",
+                "forth": "Experience:",
+                "wpLink": "https://api.whatsapp.com/send?phone=905308309219",
+                "contact": "Contact Us"
+            },
+            {
+                "title": "Our Specialist Doctors",
+                "name": "Dr. Ebru Bütün",
+                "way": "Periodontist & Dental Implant Specialist",  
+                "education": "Ankara University – Faculty of Dentistry - Dentistry 2007 _2012 Bolu Abant İzzet Baysal University – Faculty of Dentistry - Periodontology 2017_ 2021",
+                "image": "/assets/girldoctor.png",
+                "language": "English,Turkish",
+                "speciality": "Dental Implant, All-On-4/6, Bone Grafting, Sinus Lifting, Gum Disease Treatment, Gingivitis Treatment, Aesthetic Gum Treatment, Gingival Recession, Bleeding Gum",
+                "years": "10 years",
+                "wp": "/assets/wp.png",
+                "first": "Specialty:",
+                "second": "Education:",
+                "third": "Languages:",
+                "forth": "Experience:",
+                "wpLink": "https://api.whatsapp.com/send?phone=905308309219",
+                "contact": "Contact Us"
+            },
+            {
+                "title": "Our Specialist Doctors",
+                "name": "Dr. Melek Aksoy",
+                "way": "Cosmetic Specialist",   
+                "education": "Biruni university of dentistry 2015 _ 2020",
+                "image": "/assets/younggirldoctor.png",
+                "language": "English, Arabic, Turkish",
+                "speciality": "Smile Design (Zirconium Crowns, E-Max Laminate Veneers), Composite Bonding, Inlay & Onlay, Teeth Whitening / Bleaching",
+                "years": "5 years",
+                "wp": "/assets/wp.png",
+                "first": "Specialty:",
+                "second": "Education:",
+                "third": "Languages:",
+                "forth": "Experience:",
+                "wpLink": "https://api.whatsapp.com/send?phone=905308309219",
+                "contact": "Contact Us"
+            }
+        ]
+    },
     "footer": {
         "title": "OUR PARTNERS IN USA",
         "first": "OUR SOLUTION PARTNERS",

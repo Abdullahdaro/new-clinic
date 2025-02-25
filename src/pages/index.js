@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 import Value from "../components/main-page/Value";
 import Reviews from "../components/main-page/Reviews";
 import HowItWorks from "../components/main-page/HowItWorks";
+import Doctors from "../components/main-page/Doctors";
+
 export default function Home() {
   return (
     <div>
@@ -15,6 +17,7 @@ export default function Home() {
       <Value />
       <Reviews />
       <HowItWorks />
+      <Doctors />
       <Footer />
     </div>
   );

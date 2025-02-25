@@ -208,6 +208,18 @@
             }
         ]
     },
+    "digitalsmile": {
+        "title": "Digital Smile",
+        "first": "Design",
+        "second": "Digital Smile Design",
+        "third": "starts with properly captured photos. It allows a comprehensive workflow that simulates the patients treatment process.",
+        "fourth": "It begins  ",
+        "fifth": " with scans of the mouth, which are carried out during the",
+        "sixth": "first exam",
+        "seventh": "and transferred to the computer with the photos of the face taken.",
+        "eighth": "After the rehearsal, ",
+        "ninth": "the most beautiful and appropriate design is chosen and the treatment begins."
+    },
     "footer": {
         "title": "OUR PARTNERS IN USA",
         "first": "OUR SOLUTION PARTNERS",

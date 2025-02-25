@@ -236,5 +236,17 @@
                 "contact": "İletişime Geç"
             }
         ]
+    },
+    "digitalsmile": {
+        "title": "Dijital Gülüş",
+        "first": "Tasarımı",
+        "second": "Dijital Gülüş Tasarımı",
+        "third": "İlk muayenede ağız ve yüz taramaları yapılarak çekilen fotoğraflar bilgisayara aktarılır.",
+        "fourth": "Kişiye uygun  ",
+        "fifth": "estetik ve tasarımsal çalışmaları dijital ortamda hazırlanarak diş şekillendirme",
+        "sixth": "(mock-up)",
+        "seventh": "çalışması ile kişinin ağzında fizik provası yapılır.",
+        "eighth": "Prova sonrasında ",
+        "ninth": "kişiye en estetik ve uygun tasarım seçilerek tedaviye başlanır."
     }
 }

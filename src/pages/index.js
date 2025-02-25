@@ -7,6 +7,7 @@ import Value from "../components/main-page/Value";
 import Reviews from "../components/main-page/Reviews";
 import HowItWorks from "../components/main-page/HowItWorks";
 import Doctors from "../components/main-page/Doctors";
+import Digitalsmile from "../components/main-page/Digitalsmile";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Reviews />
       <HowItWorks />
       <Doctors />
+      <Digitalsmile />
       <Footer />
     </div>
   );

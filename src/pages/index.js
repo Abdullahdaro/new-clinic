@@ -8,6 +8,8 @@ import Reviews from "../components/main-page/Reviews";
 import HowItWorks from "../components/main-page/HowItWorks";
 import Doctors from "../components/main-page/Doctors";
 import Digitalsmile from "../components/main-page/Digitalsmile";
+import Specialist from "../components/main-page/Specialist";
+import Europe from "../components/main-page/Europe";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <HowItWorks />
       <Doctors />
       <Digitalsmile />
+      <Specialist />
+      <Europe />
       <Footer />
     </div>
   );

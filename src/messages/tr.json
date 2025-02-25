@@ -248,5 +248,15 @@
         "seventh": "çalışması ile kişinin ağzında fizik provası yapılır.",
         "eighth": "Prova sonrasında ",
         "ninth": "kişiye en estetik ve uygun tasarım seçilerek tedaviye başlanır."
+    },
+    "europe": {
+        "title": "Qualident, Türkiye ve Avrupa'nın",
+        "first": "Ödüllü Kliniği",
+        "second": "Avrupa'nın En İyi Diş",
+        "third": "Hekimliği Ödülü",
+        "fourth": "Türkiye'nin En İyi",
+        "fifth": "Tıbbi Ekibi Ödülü",
+        "wp": "/assets/wptr.png",
+        "wpl": "https://api.whatsapp.com/send?phone=905398289219"
     }
 }

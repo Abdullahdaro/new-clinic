@@ -7,6 +7,7 @@ import en from '@/messages/en.json'
 import fr from '@/messages/fr.json'
 import tr from '@/messages/tr.json'
 import { useState } from 'react'
+import logoforheader from '../../public/assets/logoforheader.jpg'
 
 export default function Header() {
   const router = useRouter();
@@ -66,38 +67,38 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-maincolor shadow-sm font-['Tajawal'] h-28 justify-between items-center flex">
+    <header className="bg-white shadow-sm font-['Tajawal'] h-28 justify-between items-center flex sticky top-0 z-50">
       <div className="w-full flex justify-center mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl flex justify-between items-center h-30">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center mr-20">
             <Image
-              src="/assets/mainlogo.png"
+              src={logoforheader}
               alt="Qualident Logo"
-              width={100}
-              height={20}
+              width={128}
+              height={50}
               priority
             />
           </Link>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            <Link href="/" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
+          <nav className="hidden md:flex items-center gap-8 mr-4">
+            <Link href="/" className="text-gray-700 text-sm hover:text-main font-semibold">
               {content.home}
             </Link>
-            <Link href="/aboutus" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
+            <Link href="/aboutus" className="text-gray-700 text-sm hover:text-main font-semibold">
               {content.about}
             </Link>
-            <Link href="/tedaviler" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
+            <Link href="/tedaviler" className="text-gray-700 text-sm hover:text-main font-semibold">
               {content.treatments}
             </Link>
-            <Link href="/ourdoctors" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
+            <Link href="/ourdoctors" className="text-gray-700 text-sm hover:text-main font-semibold">
               {content.doctors}
             </Link>
-            <Link href="/blog" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
+            <Link href="/blog" className="text-gray-700 text-sm hover:text-main font-semibold">
               {content.blog}
             </Link>
-            <Link href="/contactus" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
+            <Link href="/contactus" className="text-gray-700 text-sm hover:text-main font-semibold">
               {content.contact}
             </Link>
           </nav>

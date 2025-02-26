@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ContactUs from "../components/ContactUs";
+import ContactUscomponent from "../components/ContactUscomponent";
 import Specialist from "../components/main-page/Specialist";
 
 export default function AboutUs() {
@@ -40,7 +40,7 @@ export default function AboutUs() {
                 </div>
             </div>
             <Specialist />
-            <ContactUs />
+            <ContactUscomponent />
             <Footer />
         </div>
     );

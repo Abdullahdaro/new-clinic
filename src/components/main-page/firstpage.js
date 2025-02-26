@@ -71,73 +71,15 @@ export default function FirstPage() {
   };
   return (
     <div className="flex flex-col w-full items-center relative h-screen">
-      <img loading='lazy' className="absolute z-0 inset-0 w-full h-full object-cover opacity-40" src={content.images.background} alt="Background" />
-      <img
-        loading="lazy"
-        className={`absolute h-full  w-[900px] z-0 object-cover ${
-          sm ? 'ml-80 opacity-100 blur-ss' : 'blur-50'
-        }`}
-        src={content.images.main}
-        alt="Main1"
-      />
-      <div className="z-10 flex flex-col md:flex-row md:justify-between w-full max-w-[1280px] p-4">
-        <div className="flex flex-col items-start">
-          <Image 
-            loading="lazy" 
-            src={content.images.first} 
-            width={sm ? 240 : 300}
-            height={sm ? 180 : 225}
-            alt="First" 
-          />
-          <Image 
-            loading="lazy" 
-            src={content.images.second} 
-            width={sm ? 240 : 300}
-            height={sm ? 180 : 225}
-            alt="Second" 
-          />
-        </div>
-
-        <div className="bg-white rounded-2xl p-6 shadow-xl">
-          <h1 className="text-2xl font-bold text-main mb-4">{content.formtitle}</h1>
-          <form className="flex flex-col" onSubmit={handleSubmit}>
-            <label className="mb-2 font-semibold">{content.formname}</label>
-            <input
-              className="border rounded-md p-2 mb-4"
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              placeholder={content.fillname}
-              required
-            />
-
-            <label className="mb-2 font-semibold">{content.formPhone}</label>
-{/*             <PhoneInput
-              international
-              defaultCountry="US"
-              value={formData.phone}
-              onChange={handlePhoneChange}
-              className="border rounded-md p-2 mb-4"
-            /> */}
-
-            <label className="mb-2 font-semibold">{content.formEmail}</label>
-            <input
-              className="border rounded-md p-2 mb-4"
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              placeholder={content.fillEmail}
-              required
-            />
-
-            <button type="submit" className="bg-main text-white rounded-md p-2 font-bold">
-              {content.submit}
-            </button>
-          </form>
-        </div>
-      </div>
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute z-0 inset-0 w-full h-full object-cover"
+      >
+        <source src="/videos/WEPDSKEN.mp4" type="video/mp4" />
+      </video>
     </div>
   );
 }

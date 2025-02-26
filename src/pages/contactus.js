@@ -1,13 +1,13 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Image from 'next/image'
-import ContactUs from '@/components/ContactUs'
+import ContactUscomponent from '@/components/ContactUscomponent'
 
 export default function ContactUs() {
   return (
     <div>
       <Header />
-      <ContactUs />
+      <ContactUscomponent />
       <Footer />
     </div>
   )

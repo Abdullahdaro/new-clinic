@@ -49,13 +49,13 @@ export default function Header() {
             <Link href="/" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
               {content.home}
             </Link>
-            <Link href="/hakkimizda" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
+            <Link href="/aboutus" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
               {content.about}
             </Link>
             <Link href="/tedaviler" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
               {content.treatments}
             </Link>
-            <Link href="/doktorlarimiz" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
+            <Link href="/ourdoctors" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
               {content.doctors}
             </Link>
             <Link href="/blog" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">

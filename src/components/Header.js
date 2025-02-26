@@ -97,7 +97,7 @@ export default function Header() {
             <Link href="/blog" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
               {content.blog}
             </Link>
-            <Link href="/iletisim" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
+            <Link href="/contactus" className="text-gray-700 text-sm hover:text-blue-600 font-semibold">
               {content.contact}
             </Link>
           </nav>

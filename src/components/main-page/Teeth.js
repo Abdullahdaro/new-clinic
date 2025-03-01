@@ -270,7 +270,8 @@ export default function Teeth() {
                 src={content.reviews[currentPhoto].src}
                 alt={content.reviews[currentPhoto].alt}
                 className={`w-full h-full rounded-[40px]`}
-                fill
+                width={486}
+                height={324}
               />
             </div>
             <div className="w-auto h-auto px-2 flex justify-between items-center">

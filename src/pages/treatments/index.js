@@ -74,70 +74,132 @@ export default function Treatments() {
             items: [
                 {
                     name: 'Orthodontics Treatment',
-                    slug: "orthodontics-treatment"
+                    slug: 'orthodontics-treatment'
                 },
                 {
-                    name: "Invisaling Treatment",
-                    slug: "invisling-treatment"
+                    name: 'Invisalign Treatment',
+                    slug: 'invisalign-treatment'
                 },
-              'Invisalign Treatment',
-              'Metal Braces Treatment',
-              'Lingual Orthodontics (Hidden Wires)',
-              'Porcelain Braces Treatment',
-              'Removable Appliances'
+                {
+                    name: 'Metal Braces Treatment',
+                    slug: 'metal-braces'
+                },
+                {
+                    name: 'Lingual Orthodontics (Hidden Wires)',
+                    slug: 'lingual-orthodontics'
+                },
+                {
+                    name: 'Porcelain Braces Treatment',
+                    slug: 'porcelain-braces'
+                },
+                {
+                    name: 'Removable Appliances',
+                    slug: 'removable-appliances'
+                }
             ]
           },
           {
             icon: iconscraw,
             title: locale === 'tr' ? 'KANAL TEDAVİSİ' : locale === 'fr' ? 'TRAITEMENT DU CANAL' : 'ROOT CANAL TREATMENT',
             items: [
-              'Root Canal Treatment',
-              'Fiber Application'
+              {
+                name: 'Root Canal Treatment',
+                slug: 'root-canal-treatment'
+              },
+              {
+                name: 'Fiber Application',
+                slug: 'fiber-application'
+              }
             ]
           },
           {
             icon: iconchild,
             title: locale === 'tr' ? 'ÇOCUK DİŞ HEKİMLİĞİ' : locale === 'fr' ? 'DENTISTERIE PÉDIATRIQUE' : 'CHILDREN\'S DENTISTRY',
             items: [
-              'Fluoride Varnish',
-              'Fissure Sealant'
+              {
+                name: 'Fluoride Varnish',
+                slug: 'fluoride-varnish'
+              },
+              {
+                name: 'Fissure Sealant',
+                slug: 'fissure-sealant'
+              }
             ]
           },
           {
             icon: iconsiezer,
             title: locale === 'tr' ? 'ÇENE CERRAHİSİ' : locale === 'fr' ? 'CHIRURGIE MAXILLO-FACIALE' : 'MAXILLOFACIAL AND DENTAL SURGERY',
             items: [
-              'Impacted Teeth',
-              'Temporomandibular Joint Disease - TMJ',
-              'Wisdom Teeth'
+              {
+                name: 'Impacted Teeth',
+                slug: 'impacted-teeth'
+              },
+              {
+                name: 'Temporomandibular Joint Disease - TMJ',
+                slug: 'tmj-treatment'
+              },
+              {
+                name: 'Wisdom Teeth',
+                slug: 'wisdom-teeth'
+              }
             ]
           },
           {
             icon: iconmouth,
             title: locale === 'tr' ? 'DİŞ ETİ TEDAVİLERİ' : locale === 'fr' ? 'TRAITEMENTS DES GENCIVES' : 'GUM TREATMENTS',
             items: [
-              'Aesthetic Gum Treatment',
-              'Gingival Recession',
-              'Bleeding Gum'
+              {
+                name: 'Aesthetic Gum Treatment',
+                slug: 'aesthetic-gum-treatment'
+              },
+              {
+                name: 'Gingival Recession',
+                slug: 'gingival-recession'
+              },
+              {
+                name: 'Bleeding Gum',
+                slug: 'bleeding-gum'
+              }
             ]
           },
           {
             icon: iconshine,
             title: locale === 'tr' ? 'PROTEZ TEDAVİLERİ' : locale === 'fr' ? 'PROTHÈSES DENTAIRES' : 'DENTURES PROSTHESIS',
             items: [
-              'Complete & Partial dentures',
-              'Precision-Attachment Partial Dentures'
+              {
+                name: 'Complete & Partial dentures',
+                slug: 'complete-partial-dentures'
+              },
+              {
+                name: 'Precision-Attachment Partial Dentures',
+                slug: 'precision-attachment-dentures'
+              }
             ]
           },
           {
             icon: iconmouth,
             title: locale === 'tr' ? 'DİĞER TEDAVİLER' : locale === 'fr' ? 'AUTRES TRAITEMENTS' : 'OTHER TREATMENTS',
             items: [
-              'Sinus Lifting',
-              'Dental Bone Graft',
-              'Gingivitis Treatment',
-              'Diagnosis Of Oral Cancer',
-              'Bad Breath'
+              {
+                name: 'Sinus Lifting',
+                slug: 'sinus-lifting'
+              },
+              {
+                name: 'Dental Bone Graft',
+                slug: 'dental-bone-graft'
+              },
+              {
+                name: 'Gingivitis Treatment',
+                slug: 'gingivitis-treatment'
+              },
+              {
+                name: 'Diagnosis Of Oral Cancer',
+                slug: 'oral-cancer-diagnosis'
+              },
+              {
+                name: 'Bad Breath',
+                slug: 'bad-breath'
+              }
             ]
           }
     ]

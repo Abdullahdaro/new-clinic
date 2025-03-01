@@ -89,7 +89,7 @@ export default function Header() {
             <Link href="/aboutus" className="text-gray-700 text-sm hover:text-main font-semibold">
               {content.about}
             </Link>
-            <Link href="/tedaviler" className="text-gray-700 text-sm hover:text-main font-semibold">
+            <Link href="/treatments" className="text-gray-700 text-sm hover:text-main font-semibold">
               {content.treatments}
             </Link>
             <Link href="/ourdoctors" className="text-gray-700 text-sm hover:text-main font-semibold">

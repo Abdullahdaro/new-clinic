@@ -45,10 +45,72 @@ export default function ZirconiumCrown() {
       ]
     },
     tr: {
-      // Turkish content
+      title: "Zirkonyum Kaplama",
+      description: "Zirkonyum kaplamalar, diş kaplama teknolojisindeki en son gelişmeyi temsil eder ve üstün estetik ve dayanıklılık sunar. Tıbbi sınıf zirkonyum oksitten üretilen bu kaplamalar, olağanüstü dayanıklılığı korurken doğal bir görünüm sağlar.",
+      benefits: [
+        "Doğal diş görünümü",
+        "Olağanüstü dayanıklılık",
+        "Biyouyumlu materyal",
+        "Metal içermeyen çözüm",
+        "Isı değişimlerine dayanıklı",
+        "Uzun ömürlü sonuçlar"
+      ],
+      process: [
+        "İlk konsültasyon ve muayene",
+        "Diş hazırlığı",
+        "Dijital ölçü alma",
+        "Özel kaplama üretimi",
+        "Son yerleştirme ve ayarlama"
+      ],
+      indications: [
+        "Ciddi hasarlı dişler",
+        "Kanal tedavisi sonrası",
+        "Estetik iyileştirme",
+        "Eski metal kaplamaların değişimi",
+        "Büyük dolguların değişimi",
+        "Kapanış düzeltme"
+      ],
+      advantages: [
+        "Diş eti hattında koyu çizgi olmaması",
+        "Hem ön hem arka dişler için uygun",
+        "Minimum diş kesimi gereksinimi",
+        "Mükemmel uyum ve konfor",
+        "Lekelenmeye karşı dirençli"
+      ]
     },
     fr: {
-      // French content
+      title: "Couronne en Zirconium",
+      description: "Les couronnes en zirconium représentent la dernière avancée en matière de technologie des couronnes dentaires, offrant une esthétique et une durabilité supérieures. Fabriquées en oxyde de zirconium de qualité médicale, ces couronnes offrent une apparence naturelle tout en maintenant une résistance exceptionnelle.",
+      benefits: [
+        "Apparence naturelle des dents",
+        "Durabilité exceptionnelle",
+        "Matériau biocompatible",
+        "Solution sans métal",
+        "Résistant aux changements de température",
+        "Résultats durables"
+      ],
+      process: [
+        "Consultation et examen initial",
+        "Préparation de la dent",
+        "Prise d'empreinte numérique",
+        "Fabrication de couronne personnalisée",
+        "Ajustement et pose finale"
+      ],
+      indications: [
+        "Dents gravement endommagées",
+        "Après traitement de canal",
+        "Amélioration esthétique",
+        "Remplacement d'anciennes couronnes métalliques",
+        "Remplacement de grandes obturations",
+        "Correction de l'occlusion"
+      ],
+      advantages: [
+        "Pas de ligne sombre à la gencive",
+        "Convient aux dents avant et arrière",
+        "Réduction minimale de la dent nécessaire",
+        "Excellent ajustement et confort",
+        "Résistant aux taches"
+      ]
     }
   }
 

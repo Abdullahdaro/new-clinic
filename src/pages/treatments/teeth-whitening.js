@@ -5,36 +5,112 @@ import Footer from "@/components/Footer"
 import { useRouter } from "next/router"
 import Image from "next/image"
 
-export default function SmileDesign() {
+export default function TeethWhitening() {
   const router = useRouter()
   const { locale } = router
 
   const content = {
     en: {
-      title: "Smile Design (Hollywood Smile)",
-      description: "Transform your smile with our custom smile design service...",
+      title: "Teeth Whitening",
+      description: "Professional teeth whitening is a safe and effective way to enhance your smile by removing stains and discoloration. Our advanced whitening treatments can help you achieve a brighter, more confident smile.",
       benefits: [
-        "Natural-looking results",
-        "Customized treatment plan",
+        "Immediate visible results",
+        "Professional-grade whitening agents",
+        "Safe and controlled procedure",
         "Long-lasting results",
-        "Improved confidence"
+        "Customized treatment plans",
+        "Minimal sensitivity"
       ],
       process: [
-        "Initial consultation",
-        "Digital smile design",
-        "Treatment planning",
-        "Implementation"
+        "Initial consultation and examination",
+        "Professional cleaning",
+        "Shade assessment",
+        "Application of whitening agent",
+        "Light activation (if applicable)",
+        "Post-treatment care instructions"
       ],
-      images: [
-        "/assets/treatments/smile-design-1.jpg",
-        "/assets/treatments/smile-design-2.jpg"
+      indications: [
+        "Age-related discoloration",
+        "Coffee and tea stains",
+        "Tobacco stains",
+        "Fluorosis",
+        "Medication-related discoloration"
+      ],
+      aftercare: [
+        "Avoid staining foods and drinks for 48 hours",
+        "Use sensitive toothpaste if needed",
+        "Maintain good oral hygiene",
+        "Regular dental check-ups",
+        "Touch-up treatments as recommended"
       ]
     },
     tr: {
-      // Turkish content
+      title: "Diş Beyazlatma",
+      description: "Profesyonel diş beyazlatma, lekeleri ve renk değişimini gidererek gülüşünüzü geliştirmenin güvenli ve etkili bir yoludur. Gelişmiş beyazlatma tedavilerimiz, daha parlak ve özgüvenli bir gülümseme elde etmenize yardımcı olabilir.",
+      benefits: [
+        "Anında görünür sonuçlar",
+        "Profesyonel sınıf beyazlatma ajanları",
+        "Güvenli ve kontrollü prosedür",
+        "Uzun ömürlü sonuçlar",
+        "Kişiselleştirilmiş tedavi planları",
+        "Minimum hassasiyet"
+      ],
+      process: [
+        "İlk konsültasyon ve muayene",
+        "Profesyonel temizlik",
+        "Renk değerlendirmesi",
+        "Beyazlatma ajanının uygulanması",
+        "Işık aktivasyonu (uygulanabilirse)",
+        "Tedavi sonrası bakım talimatları"
+      ],
+      indications: [
+        "Yaşa bağlı renk değişimi",
+        "Kahve ve çay lekeleri",
+        "Sigara lekeleri",
+        "Fluorozis",
+        "İlaçlara bağlı renk değişimi"
+      ],
+      aftercare: [
+        "48 saat boyunca lekeleyici yiyecek ve içeceklerden kaçının",
+        "Gerekirse hassas diş macunu kullanın",
+        "İyi ağız hijyenini sürdürün",
+        "Düzenli diş kontrolleri",
+        "Önerilen şekilde rötuş tedavileri"
+      ]
     },
     fr: {
-      // French content
+      title: "Blanchiment des Dents",
+      description: "Le blanchiment professionnel des dents est un moyen sûr et efficace d'améliorer votre sourire en éliminant les taches et la décoloration. Nos traitements de blanchiment avancés peuvent vous aider à obtenir un sourire plus éclatant et plus confiant.",
+      benefits: [
+        "Résultats visibles immédiats",
+        "Agents de blanchiment de qualité professionnelle",
+        "Procédure sûre et contrôlée",
+        "Résultats durables",
+        "Plans de traitement personnalisés",
+        "Sensibilité minimale"
+      ],
+      process: [
+        "Consultation et examen initial",
+        "Nettoyage professionnel",
+        "Évaluation de la teinte",
+        "Application de l'agent blanchissant",
+        "Activation lumineuse (si applicable)",
+        "Instructions de soins post-traitement"
+      ],
+      indications: [
+        "Décoloration liée à l'âge",
+        "Taches de café et de thé",
+        "Taches de tabac",
+        "Fluorose",
+        "Décoloration liée aux médicaments"
+      ],
+      aftercare: [
+        "Éviter les aliments et boissons colorants pendant 48 heures",
+        "Utiliser un dentifrice sensible si nécessaire",
+        "Maintenir une bonne hygiène bucco-dentaire",
+        "Contrôles dentaires réguliers",
+        "Retouches selon les recommandations"
+      ]
     }
   }
 
@@ -69,7 +145,7 @@ export default function SmileDesign() {
 
           <div className="relative h-[400px] rounded-xl overflow-hidden">
             <Image
-              src={pageContent.images[0]}
+              src="/assets/treatments/teeth-whitening.jpg"
               alt={pageContent.title}
               fill
               className="object-cover"
@@ -77,16 +153,37 @@ export default function SmileDesign() {
           </div>
         </div>
 
-        {/* Process Section */}
-        <div className="mt-12">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-6">Treatment Process</h2>
-          <div className="grid md:grid-cols-4 gap-6">
-            {pageContent.process.map((step, index) => (
-              <div key={index} className="p-6 bg-gray-50 rounded-lg">
-                <div className="text-main font-bold text-xl mb-2">{index + 1}</div>
-                <div className="text-gray-600">{step}</div>
-              </div>
-            ))}
+        <div className="grid md:grid-cols-2 gap-12 mt-12">
+          <div>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Treatment Process</h2>
+            <div className="space-y-4">
+              {pageContent.process.map((step, index) => (
+                <div key={index} className="p-4 bg-gray-50 rounded-lg">
+                  <div className="flex items-center gap-4">
+                    <div className="w-8 h-8 bg-main text-white rounded-full flex items-center justify-center font-bold">
+                      {index + 1}
+                    </div>
+                    <div className="text-gray-600">{step}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Aftercare Instructions</h2>
+            <div className="bg-gray-50 p-6 rounded-xl">
+              <ul className="space-y-3">
+                {pageContent.aftercare.map((care, index) => (
+                  <li key={index} className="flex items-center gap-2 text-gray-600">
+                    <svg className="w-5 h-5 text-main" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    {care}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

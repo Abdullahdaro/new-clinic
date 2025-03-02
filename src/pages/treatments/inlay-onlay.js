@@ -40,14 +40,68 @@ export default function InlayOnlay() {
       ]
     },
     tr: {
-      // Turkish content
+      title: "Inley & Onley",
+      description: "İnley ve onleyler, diş çürüğü veya benzer hasarlar için güçlü, uzun ömürlü bir çözüm sunan özel yapım dolgulardır. Geleneksel dolgulardan daha dayanıklıdır ve krondan daha az kapsamlıdır.",
+      benefits: [
+        "Daha fazla doğal diş yapısını korur",
+        "Geleneksel dolgulardan daha dayanıklı",
+        "Komşu dişlerle mükemmel uyum ve temas",
+        "Mükemmel uzun ömürlülük",
+        "Temizlemesi ve bakımı kolay"
+      ],
+      types: {
+        inlay: "Diş yüzeyindeki tümseklerin (cups) içine oturur",
+        onlay: "Dişin bir veya daha fazla tümseğini kaplar"
+      },
+      process: [
+        "İlk konsültasyon ve muayene",
+        "Diş hazırlığı ve ölçü alma",
+        "Diş laboratuvarında özel üretim",
+        "Yerleştirme ve yapıştırma",
+        "Son ayarlamalar ve cilalama"
+      ],
+      indications: [
+        "Büyük çürükler",
+        "Kırık veya çatlak dişler",
+        "Eski dolguların değişimi",
+        "Kozmetik iyileştirme",
+        "Ek güç gerektiren dişler"
+      ]
     },
     fr: {
-      // French content
+      title: "Inlay & Onlay",
+      description: "Les inlays et onlays sont des obturations sur mesure qui offrent une solution solide et durable pour les caries ou les dommages similaires. Ils sont plus durables que les obturations traditionnelles et moins extensifs qu'une couronne.",
+      benefits: [
+        "Préserve plus de structure dentaire naturelle",
+        "Plus durable que les obturations traditionnelles",
+        "Ajustement et contact parfaits avec les dents adjacentes",
+        "Excellente longévité",
+        "Facile à nettoyer et à entretenir"
+      ],
+      types: {
+        inlay: "S'adapte dans les cuspides (bosses) de la surface de la dent",
+        onlay: "Couvre une ou plusieurs cuspides de la dent"
+      },
+      process: [
+        "Consultation et examen initial",
+        "Préparation de la dent et empreintes",
+        "Fabrication sur mesure en laboratoire dentaire",
+        "Ajustement et collage",
+        "Ajustements finaux et polissage"
+      ],
+      indications: [
+        "Grandes cavités",
+        "Dents cassées ou fracturées",
+        "Remplacement d'anciennes obturations",
+        "Amélioration cosmétique",
+        "Dents nécessitant une résistance supplémentaire"
+      ]
     }
   }
 
   const pageContent = content[locale] || content.en
+
+  console.log(pageContent.types.inlay)
 
   return (
     <div>

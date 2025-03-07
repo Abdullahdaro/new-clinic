@@ -4,6 +4,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { useRouter } from "next/router"
 import Image from "next/image"
+import aestgetucgam from "../../../public/treatments/aestgetucgam.jpg"
 
 export default function AestheticGum() {
   const router = useRouter()
@@ -12,42 +13,105 @@ export default function AestheticGum() {
   const content = {
     en: {
       title: "Aesthetic Gum Treatment",
-      description: "Aesthetic gum treatment, also known as gum contouring or gum reshaping, is a cosmetic dental procedure that improves the appearance of your smile by reshaping the gum line. This treatment can help create a more balanced and harmonious smile.",
-      benefits: [
-        "Enhanced smile aesthetics",
-        "Improved gum symmetry",
-        "Correction of 'gummy' smile",
-        "Minimal discomfort",
-        "Quick recovery",
-        "Long-lasting results"
+      introduction: [
+        "Perhaps the most important but often overlooked detail of aesthetic dentistry is gingival aesthetics.",
+        "A smile can only be beautiful when it is in harmony. Although these start with the shape of the teeth and the harmony with the face, the closing of the teeth with each other, the harmony of the jaws and nose with them, the lips and gums are the parts that create this harmony.",
+        "Normally, healthy gingival tissue is pink in color. It is very limited during laughing and follows the lip line. Changes in these criteria may cause aesthetic problems.",
+        "Gum aesthetics are provided by several methods. The use of these methods varies according to the shape and amount of correction to be applied to the case. These are sometimes in the form of reduction and sometimes addition."
       ],
-      process: [
-        "Initial consultation and planning",
-        "Gum analysis and marking",
-        "Local anesthesia application",
-        "Gentle gum reshaping",
-        "Final contouring and healing"
-      ],
-      conditions: [
-        "Uneven gum line",
-        "Excessive gum display",
-        "Gum recession",
-        "Asymmetrical gum contours",
-        "Crown lengthening needs"
-      ],
-      aftercare: [
-        "Gentle brushing techniques",
-        "Prescribed oral rinse use",
-        "Soft food diet initially",
-        "Regular follow-up visits",
-        "Maintaining good oral hygiene"
-      ]
+      treatments: {
+        gumExfoliation: {
+          title: "Gum Exfoliation",
+          description: "Some people due to genetics and excessive smoking (due to excess melanin pigment) have dark brown-black spots on the gingiva. These stains, which have no harm in terms of health but can still disturb people aesthetically, can be removed with the 'peeling' method. The skin peeling process that dermatologists do on the face can be applied in such areas in the mouth. The skin inside the mouth is also made up of layers. It is the process of gradually thinning and peeling the layers, removing the colored upper layer and providing a more aesthetic appearance."
+        },
+        gingivalRecession: {
+          title: "Gingival Recession",
+          description: "As a result of gingival recession, some teeth may appear too long, and the root surfaces of these teeth are exposed. In such a case, first of all, gingival treatment should be performed and these openings should be closed with soft tissue grafts."
+        },
+        irregularMargins: {
+          title: "Irregular Gingival Margins (Reshaping Gum)",
+          description: "The gingival framing of the teeth may be too high or too low in some teeth (due to gingival recession, eruption disorder, defects arising from tooth loss). Irregular gingival margins can be corrected without violating biological intervals, with the advantage of simplifying operative procedures and providing hemostasis, thanks to electrocautery and the lasers used."
+        },
+        crownLengthening: {
+          title: "Crown Lengthening Operation",
+          description: "It is a procedure performed to lengthen the parts of the teeth (visible parts of the mouth) above the gingival level. In some cases, caries or fractures progress below the level of the gingiva, or the length of the teeth is very short. In such cases, prosthetic (crown, bridge, etc.) treatments should be extended towards the root part of the gingival level for the retention and gingival health."
+        },
+        gummySmileBotox: {
+          title: "Gummy Smile Botox",
+          description: [
+            "The appearance of the gingiva; is directly related to the movement, tone and thickness of the lip.",
+            "When some people laugh too much, the lip muscle goes up too much and too much gum is visible. In this case, the dentist prevents the lip from going too high by reducing the appearance of the gums with botulinum toxin to be applied."
+          ]
+        }
+      }
     },
     tr: {
-      // Turkish content
+      title: "Aesthetic Gum Treatment",
+      introduction: [
+        "Perhaps the most important but often overlooked detail of aesthetic dentistry is gingival aesthetics.",
+        "A smile can only be beautiful when it is in harmony. Although these start with the shape of the teeth and the harmony with the face, the closing of the teeth with each other, the harmony of the jaws and nose with them, the lips and gums are the parts that create this harmony.",
+        "Normally, healthy gingival tissue is pink in color. It is very limited during laughing and follows the lip line. Changes in these criteria may cause aesthetic problems.",
+        "Gum aesthetics are provided by several methods. The use of these methods varies according to the shape and amount of correction to be applied to the case. These are sometimes in the form of reduction and sometimes addition."
+      ],
+      treatments: {
+        gumExfoliation: {
+          title: "Gum Exfoliation",
+          description: "Some people due to genetics and excessive smoking (due to excess melanin pigment) have dark brown-black spots on the gingiva. These stains, which have no harm in terms of health but can still disturb people aesthetically, can be removed with the 'peeling' method. The skin peeling process that dermatologists do on the face can be applied in such areas in the mouth. The skin inside the mouth is also made up of layers. It is the process of gradually thinning and peeling the layers, removing the colored upper layer and providing a more aesthetic appearance."
+        },
+        gingivalRecession: {
+          title: "Gingival Recession",
+          description: "As a result of gingival recession, some teeth may appear too long, and the root surfaces of these teeth are exposed. In such a case, first of all, gingival treatment should be performed and these openings should be closed with soft tissue grafts."
+        },
+        irregularMargins: {
+          title: "Irregular Gingival Margins (Reshaping Gum)",
+          description: "The gingival framing of the teeth may be too high or too low in some teeth (due to gingival recession, eruption disorder, defects arising from tooth loss). Irregular gingival margins can be corrected without violating biological intervals, with the advantage of simplifying operative procedures and providing hemostasis, thanks to electrocautery and the lasers used."
+        },
+        crownLengthening: {
+          title: "Crown Lengthening Operation",
+          description: "It is a procedure performed to lengthen the parts of the teeth (visible parts of the mouth) above the gingival level. In some cases, caries or fractures progress below the level of the gingiva, or the length of the teeth is very short. In such cases, prosthetic (crown, bridge, etc.) treatments should be extended towards the root part of the gingival level for the retention and gingival health."
+        },
+        gummySmileBotox: {
+          title: "Gummy Smile Botox",
+          description: [
+            "The appearance of the gingiva; is directly related to the movement, tone and thickness of the lip.",
+            "When some people laugh too much, the lip muscle goes up too much and too much gum is visible. In this case, the dentist prevents the lip from going too high by reducing the appearance of the gums with botulinum toxin to be applied."
+          ]
+        }
+      }
     },
     fr: {
-      // French content
+      title: "Aesthetic Gum Treatment",
+      introduction: [
+        "Perhaps the most important but often overlooked detail of aesthetic dentistry is gingival aesthetics.",
+        "A smile can only be beautiful when it is in harmony. Although these start with the shape of the teeth and the harmony with the face, the closing of the teeth with each other, the harmony of the jaws and nose with them, the lips and gums are the parts that create this harmony.",
+        "Normally, healthy gingival tissue is pink in color. It is very limited during laughing and follows the lip line. Changes in these criteria may cause aesthetic problems.",
+        "Gum aesthetics are provided by several methods. The use of these methods varies according to the shape and amount of correction to be applied to the case. These are sometimes in the form of reduction and sometimes addition."
+      ],
+      treatments: {
+        gumExfoliation: {
+          title: "Gum Exfoliation",
+          description: "Some people due to genetics and excessive smoking (due to excess melanin pigment) have dark brown-black spots on the gingiva. These stains, which have no harm in terms of health but can still disturb people aesthetically, can be removed with the 'peeling' method. The skin peeling process that dermatologists do on the face can be applied in such areas in the mouth. The skin inside the mouth is also made up of layers. It is the process of gradually thinning and peeling the layers, removing the colored upper layer and providing a more aesthetic appearance."
+        },
+        gingivalRecession: {
+          title: "Gingival Recession",
+          description: "As a result of gingival recession, some teeth may appear too long, and the root surfaces of these teeth are exposed. In such a case, first of all, gingival treatment should be performed and these openings should be closed with soft tissue grafts."
+        },
+        irregularMargins: {
+          title: "Irregular Gingival Margins (Reshaping Gum)",
+          description: "The gingival framing of the teeth may be too high or too low in some teeth (due to gingival recession, eruption disorder, defects arising from tooth loss). Irregular gingival margins can be corrected without violating biological intervals, with the advantage of simplifying operative procedures and providing hemostasis, thanks to electrocautery and the lasers used."
+        },
+        crownLengthening: {
+          title: "Crown Lengthening Operation",
+          description: "It is a procedure performed to lengthen the parts of the teeth (visible parts of the mouth) above the gingival level. In some cases, caries or fractures progress below the level of the gingiva, or the length of the teeth is very short. In such cases, prosthetic (crown, bridge, etc.) treatments should be extended towards the root part of the gingival level for the retention and gingival health."
+        },
+        gummySmileBotox: {
+          title: "Gummy Smile Botox",
+          description: [
+            "The appearance of the gingiva; is directly related to the movement, tone and thickness of the lip.",
+            "When some people laugh too much, the lip muscle goes up too much and too much gum is visible. In this case, the dentist prevents the lip from going too high by reducing the appearance of the gums with botulinum toxin to be applied."
+          ]
+        }
+      }
     }
   }
 
@@ -57,39 +121,41 @@ export default function AestheticGum() {
     <div>
       <Header />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-4xl font-bold text-center mb-12 text-main">
-          {pageContent.title}
-        </h1>
-
-        <div className="grid md:grid-cols-2 gap-12 mb-12">
-          <div className="space-y-6">
-            <p className="text-gray-600 leading-relaxed">
-              {pageContent.description}
-            </p>
-            
-            <h2 className="text-2xl font-semibold text-gray-900">Benefits</h2>
-          </div>
-
-          <div className="relative h-[400px] rounded-xl overflow-hidden">
-            <Image
-              src="/assets/treatments/aesthetic-gum.jpg"
-              alt={pageContent.title}
-              fill
-              className="object-cover"
-            />
-          </div>
+        <div className="mb-12">
+          <Image
+            src={aestgetucgam}
+            alt="Aesthetic Gum Treatment"
+            width={2500}
+            height={1667}
+            className="w-full rounded-xl"
+          />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 mt-12">
-          <div>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Treatment Process</h2>
-          </div>
+        <div className="prose max-w-none mb-12">
+          {pageContent.introduction.map((paragraph, index) => (
+            <p key={index} className="text-gray-600 mb-4 leading-relaxed">
+              {paragraph}
+            </p>
+          ))}
+        </div>
 
-          <div>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Aftercare Instructions</h2>
-            <div className="bg-gray-50 p-6 rounded-xl">
-            </div>
-          </div>
+        <div className="space-y-12">
+          {Object.entries(pageContent.treatments).map(([key, treatment]) => (
+            <section key={key} className="border-b border-gray-200 pb-8 last:border-0">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+                {treatment.title}
+              </h3>
+              {Array.isArray(treatment.description) ? (
+                treatment.description.map((paragraph, index) => (
+                  <p key={index} className="text-gray-600 mb-4 leading-relaxed">
+                    {paragraph}
+                  </p>
+                ))
+              ) : (
+                <p className="text-gray-600 leading-relaxed">{treatment.description}</p>
+              )}
+            </section>
+          ))}
         </div>
       </div>
       <Footer />

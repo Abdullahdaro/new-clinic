@@ -4,6 +4,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { useRouter } from "next/router"
 import Image from "next/image"
+import smiledesign from "../../../public/treatments/smiledesign.jpg"
 
 export default function SmileDesign() {
   const router = useRouter()
@@ -11,97 +12,121 @@ export default function SmileDesign() {
 
   const content = {
     en: {
-      title: "Smile Design (Hollywood Smile)",
-      description: "Transform your smile with our custom smile design service. Using advanced digital technology and artistic expertise, we create personalized treatment plans to achieve your ideal smile while maintaining natural aesthetics and optimal function.",
-      benefits: [
-        "Natural-looking results",
-        "Customized treatment plan",
-        "Long-lasting results",
-        "Improved confidence",
-        "Enhanced facial aesthetics",
-        "Better oral function"
-      ],
-      process: [
-        "Initial consultation",
-        "Digital smile design",
-        "Treatment planning",
-        "Mock-up preview",
-        "Implementation",
-        "Final adjustments"
-      ],
-      features: [
-        "Digital smile simulation",
-        "Comprehensive approach",
-        "Multiple treatment options",
-        "Precise measurements",
-        "Harmony with facial features"
-      ],
-      images: [
-        "/assets/treatments/smile-design-1.jpg",
-        "/assets/treatments/smile-design-2.jpg"
-      ]
+      title: "Hollywood Smile Design",
+      whatIs: {
+        title: "What is a Hollywood Smile?",
+        description: "Hollywood Smile is a treatment that uses thin porcelain shells (porcelain veneers) applied to the front surface of teeth to achieve a perfect, aesthetic smile. This procedure permanently alters the shape, color, and size of your teeth to create a natural, radiant smile."
+      },
+      whoShould: {
+        title: "Who Should Consider a Hollywood Smile?",
+        description: "If you are experiencing any of the following issues, a Hollywood Smile may be the ideal solution for you:",
+        list: [
+          "Discoloration or staining on teeth",
+          "Crooked or misaligned teeth",
+          "Teeth darkened by large restorations",
+          "A general desire for a more aesthetic smile"
+        ],
+        note: "Our team is ready to provide solutions tailored to your needs. However, redesigning a smile involves more than just aligning teeth. It requires a comprehensive evaluation of facial structure and proportions to create a personalized smile design."
+      },
+      process: {
+        title: "How is a Hollywood Smile Achieved?",
+        description: "The process:",
+        steps: [
+          "The treatment typically takes 30-40 minutes",
+          "Our expert dentists analyze your smile by taking photos and videos of your face",
+          "The measurements of your teeth are then taken",
+          "During this stage, patients can discuss their expectations and the procedure in detail with their specialist"
+        ],
+        timeNote: "Time to results: The treatment can usually be completed in just two appointments, providing immediate results."
+      },
+      benefits: {
+        title: "Benefits of a Hollywood Smile",
+        list: [
+          "Permanent transformation: Permanently improves the size, shape, and color of your teeth",
+          "Natural appearance: Results in a highly natural and aesthetic smile",
+          "Minimally invasive: Porcelain veneers require less preparation compared to crowns",
+          "Stain resistance: The materials used are resistant to stains and retain their brightness over time",
+          "Quick results: Achieve your dream Hollywood Smile in just two appointments"
+        ]
+      }
     },
     tr: {
-      title: "Gülüş Tasarımı (Hollywood Smile)",
-      description: "Özel gülüş tasarımı hizmetimizle gülüşünüzü dönüştürün. İleri dijital teknoloji ve sanatsal uzmanlık kullanarak, doğal estetiği ve optimal işlevi korurken ideal gülüşünüzü elde etmek için kişiselleştirilmiş tedavi planları oluşturuyoruz.",
-      benefits: [
-        "Doğal görünümlü sonuçlar",
-        "Kişiselleştirilmiş tedavi planı",
-        "Uzun ömürlü sonuçlar",
-        "Artırılmış özgüven",
-        "Geliştirilmiş yüz estetiği",
-        "Daha iyi ağız fonksiyonu"
-      ],
-      process: [
-        "İlk konsültasyon",
-        "Dijital gülüş tasarımı",
-        "Tedavi planlaması",
-        "Ön izleme",
-        "Uygulama",
-        "Son ayarlamalar"
-      ],
-      features: [
-        "Dijital gülüş simülasyonu",
-        "Kapsamlı yaklaşım",
-        "Çoklu tedavi seçenekleri",
-        "Hassas ölçümler",
-        "Yüz özellikleriyle uyum"
-      ],
-      images: [
-        "/assets/treatments/smile-design-1.jpg",
-        "/assets/treatments/smile-design-2.jpg"
-      ]
+      title: "Hollywood Gülüş Tasarımı",
+      whatIs: {
+        title: "Hollywood Gülüşü Nedir?",
+        description: "Hollywood Gülüşü, mükemmel ve estetik bir gülüş elde etmek için dişlerin ön yüzeyine uygulanan ince porselen kaplamalar (porselen veneerler) kullanan bir tedavidir. Bu işlem, doğal ve parlak bir gülümseme yaratmak için dişlerinizin şeklini, rengini ve boyutunu kalıcı olarak değiştirir."
+      },
+      whoShould: {
+        title: "Hollywood Gülüş Tasarımı İçin Kimleri Önerir?",
+        description: "Aşağıdaki sorunlardan birini yaşıyorsanız, Hollywood Gülüş Tasarımı için mükemmel bir çözüm olabilir:",
+        list: [
+          "Dişlerinizdeki renk kayması veya lekeler",
+          "Kırık veya hatalı dişler",
+          "Büyük restorasyonlar nedeniyle dişlerinizin koyuya dönmüş olması",
+          "Daha estetik bir gülüş arıyorsunuz"
+        ],
+        note: "Takımımız, ihtiyaçlarınıza uygun çözümler sunmaya hazırdır. Ancak gülüş tasarımı, dişlerin hizalı olmasından ibaret değildir. İdeal gülüş tasarımını oluşturmak için yüz yapısını ve oranlarını tam bir değerlendirme ile değerlendirmeniz gerekir."
+      },
+      process: {
+        title: "Hollywood Gülüş Tasarımı Nasıl Sağlanır?",
+        description: "İşlem:",
+        steps: [
+          "Tedavi genellikle 30-40 dakika sürer",
+          "Uzun fotoğraflarınızı ve videolarınızı alarak gülüşünüzü uzmanımızla detaylı bir şekilde tartışabilirsiniz",
+          "Dişlerinizin ölçümleri alınır",
+          "Bu aşamada hastalar, beklentilerini ve işlemi detaylı bir şekilde uzmanıyla tartışabilir"
+        ],
+        timeNote: "Sonuçların zamanı: Tedavi genellikle iki randevuda tamamlanabilir, anında sonuçlar sağlar."
+      },
+      benefits: {
+        title: "Hollywood Gülüş Tasarımının Faydaları",
+        list: [
+          "Kalıcı dönüşüm: Dişlerinizin boyutunu, şeklini ve rengini kalıcı olarak iyileştirir",
+          "Doğal görünüm: Yüksek düzeyde doğal ve estetik bir gülüş sonucu elde eder",
+          "Minimal invazyon: Porcelen kaplamaları, kronlarla karşılaştırıldığında daha az hazırlık gerektirir",
+          "Stain direnci: Kullanılan malzemeler renkleri ve zaman içinde parlaklığını koruma için dirençli",
+          "Hızlı sonuçlar: İdeal Hollywood Gülüşünüzü iki randevuda elde edebilirsiniz"
+        ]
+      }
     },
     fr: {
-      title: "Design du Sourire (Sourire Hollywood)",
-      description: "Transformez votre sourire avec notre service personnalisé de design du sourire. En utilisant une technologie numérique avancée et une expertise artistique, nous créons des plans de traitement personnalisés pour obtenir votre sourire idéal tout en maintenant une esthétique naturelle et une fonction optimale.",
-      benefits: [
-        "Résultats d'apparence naturelle",
-        "Plan de traitement personnalisé",
-        "Résultats durables",
-        "Confiance améliorée",
-        "Esthétique faciale améliorée",
-        "Meilleure fonction buccale"
-      ],
-      process: [
-        "Consultation initiale",
-        "Design numérique du sourire",
-        "Planification du traitement",
-        "Aperçu préliminaire",
-        "Mise en œuvre",
-        "Ajustements finaux"
-      ],
-      features: [
-        "Simulation numérique du sourire",
-        "Approche complète",
-        "Options de traitement multiples",
-        "Mesures précises",
-        "Harmonie avec les traits du visage"
-      ],
-      images: [
-        "/assets/treatments/smile-design-1.jpg",
-        "/assets/treatments/smile-design-2.jpg"
-      ]
+      title: "Design du Sourire Hollywood",
+      whatIs: {
+        title: "Qu'est-ce qu'un Sourire Hollywood ?",
+        description: "Le Sourire Hollywood est un traitement qui utilise de fines coquilles en porcelaine (facettes en porcelaine) appliquées sur la surface avant des dents pour obtenir un sourire parfait et esthétique. Cette procédure modifie de façon permanente la forme, la couleur et la taille de vos dents pour créer un sourire naturel et radieux."
+      },
+      whoShould: {
+        title: "Qui devrait considérer un Sourire Hollywood ?",
+        description: "Si vous rencontrez l'un des problèmes suivants, un Sourire Hollywood pourrait être la solution idéale pour vous :",
+        list: [
+          "Taches ou tâches sur les dents",
+          "Dents croisées ou désaxées",
+          "Dents teintées par des restaurations importantes",
+          "Un général désir d'un sourire plus esthétique"
+        ],
+        note: "Notre équipe est prête à vous fournir des solutions adaptées à vos besoins. Cependant, redéfinir un sourire implique plus que d'aligner les dents. Il nécessite une évaluation complète de la structure et des proportions du visage pour créer un design de sourire personnalisé."
+      },
+      process: {
+        title: "Comment un Sourire Hollywood est réalisé ?",
+        description: "Le processus :",
+        steps: [
+          "Le traitement prend généralement 30 à 40 minutes",
+          "Nos experts dentaires analysent votre sourire en prenant des photos et des vidéos de votre visage",
+          "Les mesures de vos dents sont ensuite prises",
+          "Pendant cette étape, les patients peuvent discuter de leurs attentes et du procédé avec leur spécialiste"
+        ],
+        timeNote: "Temps pour les résultats : Le traitement peut généralement être terminé en deux rendez-vous, fournissant des résultats immédiats."
+      },
+      benefits: {
+        title: "Avantages d'un Sourire Hollywood",
+        list: [
+          "Transformation permanente : Améliore de manière permanente la taille, la forme et la couleur de vos dents",
+          "Apparence naturelle : Résulte en un sourire naturel et esthétique",
+          "Invasivité minimale : Les facettes en porcelaine nécessitent moins de préparation que les couronnes",
+          "Résistance aux taches : Les matériaux utilisés sont résistants aux taches et conservent leur brillance au fil du temps",
+          "Résultats rapides : Réalisez votre rêve Hollywood Smile en deux rendez-vous"
+        ]
+      }
     }
   }
 
@@ -111,72 +136,56 @@ export default function SmileDesign() {
     <div>
       <Header />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-4xl font-bold text-center mb-12 text-main">
-          {pageContent.title}
-        </h1>
-
-        <div className="grid md:grid-cols-2 gap-12 mb-12">
-          <div className="space-y-6">
-            <p className="text-gray-600 leading-relaxed">
-              {pageContent.description}
-            </p>
-            
-            <h2 className="text-2xl font-semibold text-gray-900">Benefits</h2>
-            <ul className="space-y-2">
-              {pageContent.benefits.map((benefit, index) => (
-                <li key={index} className="flex items-center gap-2 text-gray-600">
-                  <svg className="w-5 h-5 text-main" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  {benefit}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="relative h-[400px] rounded-xl overflow-hidden">
-            <Image
-              src={pageContent.images[0]}
-              alt={pageContent.title}
-              fill
-              className="object-cover"
-            />
-          </div>
+        <div className="mb-12">
+          <Image
+            src={smiledesign}
+            alt="Hollywood Smile"
+            width={1920}
+            height={1100}
+            className="w-full rounded-xl"
+          />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 mt-12">
-          <div>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Treatment Process</h2>
-            <div className="space-y-4">
-              {pageContent.process.map((step, index) => (
-                <div key={index} className="p-4 bg-gray-50 rounded-lg">
-                  <div className="flex items-center gap-4">
-                    <div className="w-8 h-8 bg-main text-white rounded-full flex items-center justify-center font-bold">
-                      {index + 1}
-                    </div>
-                    <div className="text-gray-600">{step}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold mb-6">{pageContent.whatIs.title}</h2>
+          <p className="text-gray-600 leading-relaxed">{pageContent.whatIs.description}</p>
+        </section>
 
-          <div>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Key Features</h2>
-            <div className="bg-gray-50 p-6 rounded-xl">
-              <ul className="space-y-3">
-                {pageContent.features.map((feature, index) => (
-                  <li key={index} className="flex items-center gap-2 text-gray-600">
-                    <svg className="w-5 h-5 text-main" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold mb-6">{pageContent.whoShould.title}</h2>
+          <p className="text-gray-600 mb-4">{pageContent.whoShould.description}</p>
+          <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-600">
+            {pageContent.whoShould.list.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+          <p className="text-gray-600">{pageContent.whoShould.note}</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold mb-6">{pageContent.process.title}</h2>
+          <p className="text-gray-600 mb-4">{pageContent.process.description}</p>
+          <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-600">
+            {pageContent.process.steps.map((step, index) => (
+              <li key={index}>{step}</li>
+            ))}
+          </ul>
+          <p className="text-gray-600 font-medium">{pageContent.process.timeNote}</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold mb-6">{pageContent.benefits.title}</h2>
+          <ul className="space-y-4">
+            {pageContent.benefits.list.map((benefit, index) => (
+              <li key={index} className="flex items-start gap-2 text-gray-600">
+                <svg className="w-6 h-6 text-main flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                {benefit}
+              </li>
+            ))}
+          </ul>
+        </section>
       </div>
       <Footer />
     </div>

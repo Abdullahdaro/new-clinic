@@ -4,7 +4,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { useRouter } from "next/router"
 import Image from "next/image"
-import aestgetucgam from "../../../public/treatments/aestgetucgam.jpg"
+import aestheticgam from "../../../public/treatments/aestheticgam.jpg"
 
 export default function AestheticGum() {
   const router = useRouter()
@@ -123,7 +123,7 @@ export default function AestheticGum() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-12">
           <Image
-            src={aestgetucgam}
+            src={aestheticgam}
             alt="Aesthetic Gum Treatment"
             width={2500}
             height={1667}

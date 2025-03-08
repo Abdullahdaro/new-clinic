@@ -4,6 +4,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { useRouter } from "next/router"
 import Image from "next/image"
+import inlayonay from "../../../public/treatments/inlayonay.jpg"
 
 export default function InlayOnlay() {
   const router = useRouter()
@@ -11,169 +12,163 @@ export default function InlayOnlay() {
 
   const content = {
     en: {
-      title: "Inlay & Onlay",
-      description: "Inlays and onlays are custom-made fillings that offer a strong, long-lasting solution for tooth decay or similar damage. They are more durable than traditional fillings and less extensive than a crown.",
-      benefits: [
-        "Preserves more natural tooth structure",
-        "More durable than traditional fillings",
-        "Perfect fit and contact with adjacent teeth",
-        "Excellent longevity",
-        "Easy to clean and maintain"
-      ],
-      types: {
-        inlay: "Fits within the cusps (bumps) of the tooth surface",
-        onlay: "Covers one or more cusps of the tooth"
+      title: "Inlay and Onlay",
+      what: {
+        title: "What Are Inlay and Onlay?",
+        description: "Inlay and Onlay fillings are ceramic or porcelain restorations used to repair teeth affected by decay, root canal treatments, or trauma by replacing the missing tooth structure."
       },
-      process: [
-        "Initial consultation and examination",
-        "Tooth preparation and impressions",
-        "Custom fabrication in dental laboratory",
-        "Fitting and bonding",
-        "Final adjustments and polishing"
-      ],
-      indications: [
-        "Large cavities",
-        "Broken or fractured teeth",
-        "Replacement of old fillings",
-        "Cosmetic enhancement",
-        "Teeth requiring additional strength"
-      ]
+      when: {
+        title: "When Are They Needed?",
+        description: "They are ideal when there is not enough tooth structure to support regular fillings, but the damage does not require a full crown."
+      },
+      benefits: {
+        title: "What Are Their Benefits?",
+        description: "Inlays and Onlays preserve healthy tooth tissue, ensure contact with neighboring teeth, and prevent food accumulation, reducing the risk of dental problems."
+      },
+      application: {
+        title: "How Are They Applied?",
+        description: "They are crafted using computer-aided systems to fit the missing parts without extensive tooth reduction, making them a cost-effective alternative to crowns."
+      },
+      advantages: {
+        title: "Advantages of Inlay and Onlay",
+        list: [
+          "Aesthetic and durable solution",
+          "Preserves natural tooth structure",
+          "Prevents bacterial accumulation",
+          "Provides excellent chewing efficiency"
+        ]
+      }
     },
     tr: {
-      title: "Inley & Onley",
-      description: "İnley ve onleyler, diş çürüğü veya benzer hasarlar için güçlü, uzun ömürlü bir çözüm sunan özel yapım dolgulardır. Geleneksel dolgulardan daha dayanıklıdır ve krondan daha az kapsamlıdır.",
-      benefits: [
-        "Daha fazla doğal diş yapısını korur",
-        "Geleneksel dolgulardan daha dayanıklı",
-        "Komşu dişlerle mükemmel uyum ve temas",
-        "Mükemmel uzun ömürlülük",
-        "Temizlemesi ve bakımı kolay"
-      ],
-      types: {
-        inlay: "Diş yüzeyindeki tümseklerin (cups) içine oturur",
-        onlay: "Dişin bir veya daha fazla tümseğini kaplar"
+      title: "İnley ve Onley",
+      what: {
+        title: "İnley ve Onley Nedir?",
+        description: "İnley ve Onley dolgular, çürük, kanal tedavisi veya travmadan etkilenen dişleri onarmak için kullanılan, eksik diş yapısını değiştiren seramik veya porselen restorasyonlardır."
       },
-      process: [
-        "İlk konsültasyon ve muayene",
-        "Diş hazırlığı ve ölçü alma",
-        "Diş laboratuvarında özel üretim",
-        "Yerleştirme ve yapıştırma",
-        "Son ayarlamalar ve cilalama"
-      ],
-      indications: [
-        "Büyük çürükler",
-        "Kırık veya çatlak dişler",
-        "Eski dolguların değişimi",
-        "Kozmetik iyileştirme",
-        "Ek güç gerektiren dişler"
-      ]
+      when: {
+        title: "Ne Zaman İhtiyaç Duyulur?",
+        description: "Normal dolguları desteklemek için yeterli diş yapısı olmadığında, ancak hasarın tam bir kron gerektirmediği durumlarda idealdir."
+      },
+      benefits: {
+        title: "Faydaları Nelerdir?",
+        description: "İnley ve Onley'ler sağlıklı diş dokusunu korur, komşu dişlerle teması sağlar ve diş problemleri riskini azaltarak yiyecek birikimini önler."
+      },
+      application: {
+        title: "Nasıl Uygulanır?",
+        description: "Kapsamlı diş kesimi gerektirmeden eksik parçalara uyacak şekilde bilgisayar destekli sistemler kullanılarak üretilir ve kronlara ekonomik bir alternatif oluşturur."
+      },
+      advantages: {
+        title: "İnley ve Onley'in Avantajları",
+        list: [
+          "Estetik ve dayanıklı çözüm",
+          "Doğal diş yapısını korur",
+          "Bakteriyel birikimi önler",
+          "Mükemmel çiğneme verimliliği sağlar"
+        ]
+      }
     },
     fr: {
-      title: "Inlay & Onlay",
-      description: "Les inlays et onlays sont des obturations sur mesure qui offrent une solution solide et durable pour les caries ou les dommages similaires. Ils sont plus durables que les obturations traditionnelles et moins extensifs qu'une couronne.",
-      benefits: [
-        "Préserve plus de structure dentaire naturelle",
-        "Plus durable que les obturations traditionnelles",
-        "Ajustement et contact parfaits avec les dents adjacentes",
-        "Excellente longévité",
-        "Facile à nettoyer et à entretenir"
-      ],
-      types: {
-        inlay: "S'adapte dans les cuspides (bosses) de la surface de la dent",
-        onlay: "Couvre une ou plusieurs cuspides de la dent"
+      title: "Inlay et Onlay",
+      what: {
+        title: "Que Sont les Inlay et Onlay ?",
+        description: "Les inlays et onlays sont des restaurations en céramique ou en porcelaine utilisées pour réparer les dents affectées par la carie, les traitements de canal ou les traumatismes en remplaçant la structure dentaire manquante."
       },
-      process: [
-        "Consultation et examen initial",
-        "Préparation de la dent et empreintes",
-        "Fabrication sur mesure en laboratoire dentaire",
-        "Ajustement et collage",
-        "Ajustements finaux et polissage"
-      ],
-      indications: [
-        "Grandes cavités",
-        "Dents cassées ou fracturées",
-        "Remplacement d'anciennes obturations",
-        "Amélioration cosmétique",
-        "Dents nécessitant une résistance supplémentaire"
-      ]
+      when: {
+        title: "Quand Sont-ils Nécessaires ?",
+        description: "Ils sont idéaux lorsqu'il n'y a pas assez de structure dentaire pour supporter les obturations régulières, mais que les dommages ne nécessitent pas une couronne complète."
+      },
+      benefits: {
+        title: "Quels Sont Leurs Avantages ?",
+        description: "Les inlays et onlays préservent le tissu dentaire sain, assurent le contact avec les dents voisines et empêchent l'accumulation de nourriture, réduisant ainsi le risque de problèmes dentaires."
+      },
+      application: {
+        title: "Comment Sont-ils Appliqués ?",
+        description: "Ils sont fabriqués à l'aide de systèmes assistés par ordinateur pour s'adapter aux parties manquantes sans réduction dentaire extensive, ce qui en fait une alternative économique aux couronnes."
+      },
+      advantages: {
+        title: "Avantages des Inlay et Onlay",
+        list: [
+          "Solution esthétique et durable",
+          "Préserve la structure naturelle des dents",
+          "Prévient l'accumulation bactérienne",
+          "Offre une excellente efficacité de mastication"
+        ]
+      }
     }
   }
 
   const pageContent = content[locale] || content.en
 
-  console.log(pageContent.types.inlay)
-
   return (
     <div>
       <Header />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="mb-12">
+          <Image
+            src={inlayonay}
+            alt="Inlay and Onlay Treatment"
+            width={2500}
+            height={1667}
+            className="w-full rounded-xl"
+          />
+        </div>
+
         <h1 className="text-4xl font-bold text-center mb-12 text-main">
           {pageContent.title}
         </h1>
 
-        <div className="grid md:grid-cols-2 gap-12 mb-12">
-          <div className="space-y-6">
+        <div className="space-y-12">
+          <section>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+              {pageContent.what.title}
+            </h2>
             <p className="text-gray-600 leading-relaxed">
-              {pageContent.description}
+              {pageContent.what.description}
             </p>
-            
-            <div className="bg-gray-50 p-6 rounded-xl space-y-4">
-              <h2 className="text-2xl font-semibold text-gray-900">Types</h2>
-              <div className="grid gap-4">
-                <div className="p-4 bg-white rounded-lg">
-                  <h3 className="font-semibold text-main">Inlay</h3>
-                  <p className="text-gray-600">{pageContent.types.inlay}</p>
-                </div>
-                <div className="p-4 bg-white rounded-lg">
-                  <h3 className="font-semibold text-main">Onlay</h3>
-                  <p className="text-gray-600">{pageContent.types.onlay}</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          </section>
 
-          <div className="relative h-[400px] rounded-xl overflow-hidden">
-            <Image
-              src="/assets/treatments/inlay-onlay.jpg"
-              alt={pageContent.title}
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
+          <section>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+              {pageContent.when.title}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {pageContent.when.description}
+            </p>
+          </section>
 
-        <div className="grid md:grid-cols-2 gap-12 mt-12">
-          <div>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Treatment Process</h2>
-            <div className="space-y-4">
-              {pageContent.process.map((step, index) => (
-                <div key={index} className="p-4 bg-gray-50 rounded-lg">
-                  <div className="flex items-center gap-4">
-                    <div className="w-8 h-8 bg-main text-white rounded-full flex items-center justify-center font-bold">
-                      {index + 1}
-                    </div>
-                    <div className="text-gray-600">{step}</div>
-                  </div>
-                </div>
+          <section>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+              {pageContent.benefits.title}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {pageContent.benefits.description}
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+              {pageContent.application.title}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {pageContent.application.description}
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+              {pageContent.advantages.title}
+            </h2>
+            <ul className="space-y-3">
+              {pageContent.advantages.list.map((advantage, index) => (
+                <li key={index} className="flex items-center gap-2 text-gray-600">
+                  <svg className="w-5 h-5 text-main" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  {advantage}
+                </li>
               ))}
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Indications</h2>
-            <div className="bg-gray-50 p-6 rounded-xl">
-              <ul className="space-y-3">
-                {pageContent.indications.map((indication, index) => (
-                  <li key={index} className="flex items-center gap-2 text-gray-600">
-                    <svg className="w-5 h-5 text-main" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    {indication}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+            </ul>
+          </section>
         </div>
       </div>
       <Footer />
